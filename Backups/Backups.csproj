@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <WarningLevel>5</WarningLevel>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\.editorconfig" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DotNetZip" Version="1.16.0" />
+      <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="System.Security.Permissions" Version="7.0.0" />
+      <PackageReference Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+      <PackageReference Include="Zio" Version="0.16.1" />
+    </ItemGroup>
+
+
+</Project>
